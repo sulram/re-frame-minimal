@@ -1,0 +1,14 @@
+{:source-paths ["src"]
+
+ :nrepl        {:port 3333}
+ :dev-http     {7777 "public"}
+ 
+ :dependencies [[reagent "1.0.0-alpha2"]
+                [re-frame "1.0.0-rc3"]]
+
+ :builds {:app {:target :browser
+                :modules {:main {:init-fn app.core/init}}
+                :output-dir "public/js"
+                :asset-path "/js"}}}
+
+                

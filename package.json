@@ -1,0 +1,14 @@
+{
+  "name": "re-frame-minimal",
+  "version": "0.0.1",
+  "description": "Minimal starter template for re-frame",
+  "author": "Marlus Araujo",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx shadow-cljs watch app"
+  },
+  "devDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
