@@ -7,8 +7,11 @@
   "scripts": {
     "dev": "npx shadow-cljs watch app"
   },
-  "devDependencies": {
+  "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.10.13"
   }
 }
